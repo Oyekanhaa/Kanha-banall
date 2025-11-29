@@ -1,6 +1,6 @@
 from datetime import datetime
 
-photo3 = "https://graph.org/file/1d11deb9c55d1301e9cae.jpg"
+photo3 = "https://files.catbox.moe/h2cidx.jpg"
 
 
 def sample_response(input_text):
@@ -10,11 +10,11 @@ def sample_response(input_text):
     return f"{photo3}\n\
     hey! adil is not here i am lara wanna play with me"
 
-  if user_message in ("shiv", "shivansh", "your shivansh", "@SHIVANSH39"):
+  if user_message in ("kanh", "kanha", "your kanha", "@oyekanha"):
     return "HE is busy in her schedule. you can tell me i inform her"
   if user_message in ("bsdk", "madharchod", "bkl", "behanchod", "cgutiya",
                       "gaandu"):
-    return "Shivansh papa ke bina gaali mat bak aane de use"
+    return "Kanha papa ke bina gaali mat bak aane de use"
 
   if user_message in ("ladki", "pyar", "dhoka"):
     return "Pyar ek dhoka hai...aur baaki gamdu ki gaand maar yahi sahi moka hai"
